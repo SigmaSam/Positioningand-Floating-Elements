@@ -1,5 +1,48 @@
-html,body {
+html,
+body {
   font-size: 62%;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  height: 10rem;
+  font-size: 2rem;
+  justify-content: space-between;
+  /* position: fixed; */
+  width: 100%;
+}
+.box__OptionsSearch {
+  justify-content: start;
+  
+}
+
+.box__OptionsSearch,
+.box__Buttoms {
+  flex-grow: 1;
+}
+.box__Buttoms {
+  justify-content: flex-end;
+}
+.box__Logo {
+  flex-grow: 2;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+}
+
+.box__OptionsSearch ul li,
+.box__Buttoms ul li {
+  flex-grow: 1;
+  display: inline-block;
+  margin: auto 1.2rem;
+  color: black;
+}
+
+.box__OptionsSearch a {
+  text-decoration: none;
+  color: black;
 }
