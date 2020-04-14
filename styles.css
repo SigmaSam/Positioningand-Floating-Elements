@@ -8,24 +8,39 @@ body {
 nav {
   display: flex;
   flex-direction: row;
-  height: 10rem;
+  height: 5rem;
   font-size: 2rem;
   justify-content: space-between;
-  /* position: fixed; */
+  position: fixed;
   width: 100%;
+  border-bottom: 1px grey solid;
 }
 .box__OptionsSearch {
   justify-content: start;
-  
+
 }
 
 .box__OptionsSearch,
 .box__Buttoms {
   flex-grow: 1;
 }
-.box__Buttoms {
-  justify-content: flex-end;
+.box__Buttoms ul {
+  display:block;
+  justify-content: end;
+  text-decoration:none;
+  color: black;
+  margin-right:-20rem;
 }
+
+.box__Buttoms a {
+  text-decoration:none;
+  color: black;
+  cursor: pointer;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  backgroud-color: blue;
+  padding: 1rem;
+}
+
 .box__Logo {
   flex-grow: 2;
   justify-content: center;
@@ -36,7 +51,6 @@ ul {
 
 .box__OptionsSearch ul li,
 .box__Buttoms ul li {
-  flex-grow: 1;
   display: inline-block;
   margin: auto 1.2rem;
   color: black;
