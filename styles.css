@@ -1,62 +1,112 @@
 html,
 body {
-  font-size: 62%;
+  font-size: 62.5%;
   margin: 0;
   padding: 0;
+  font-family:nyt-franklin,helvetica,arial,sans-seri;
 }
 
 nav {
   display: flex;
   flex-direction: row;
-  height: 5rem;
+  flex-wrap:none;
   font-size: 2rem;
-  justify-content: space-between;
-  position: fixed;
   width: 100%;
-  border-bottom: 1px grey solid;
-}
-.box__OptionsSearch {
-  justify-content: start;
-
+  border-bottom: 0.1rem grey solid;
+  padding-bottom: 0.2rem;
 }
 
-.box__OptionsSearch,
-.box__Buttoms {
+h1 {
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 4rem;
+  color: #121212;
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-weight: 700;
+  font-style: italic;
+  text-align: justify;
+  max-width: 600px;
+  margin-top: 2rem;
+}
+
+header > p {
+display: block;
+color: #666;
+font-family: nyt-imperial,georgia,'times new roman',times,serif;
+font-size: 1.6rem;
+line-height: 1.5rem;
+max-width: 60rem;
+text-align: justify;
+margin: 1rem auto 0;
+}
+
+.box__OptionsSearch{
+  margin-right: 5rem;
+  margin-top: 1rem;
+}
+.box__OptionsSearch a {
+  color: black;
+  text-align: center;
   flex-grow: 1;
-}
-.box__Buttoms ul {
-  display:block;
-  justify-content: end;
-  text-decoration:none;
-  color: black;
-  margin-right:-20rem;
+  justify-content: flex-start;
+  text-align: left;
+  margin-left: 1rem;
 }
 
-.box__Buttoms a {
-  text-decoration:none;
+.box__OptionsSearch #Space {
   color: black;
-  cursor: pointer;
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
-  backgroud-color: blue;
-  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-family: nyt-franklin;
+  letter-spacing: 0.7px;
+  line-height: 19px;
+  font-weight: 700;
 }
 
 .box__Logo {
   flex-grow: 2;
+  text-align: center;
+  height: 4rem;
+  justify-item: center;
+  padding-left: 12rem;
+
+
+}
+
+.box__Buttoms {
+  flex-grow: 1;
+  text-align: right;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+
+.box__Buttoms button {
+  border-radius: 3px;
+  font-family: nyt-franklin;
+  cursor: pointer;
+  padding: 11px 12px 8px;
+  border: 1px solid rgb(50, 104, 145);
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  background-color: rgb(50, 104, 145);
+}
+
+#Alan {
+  display: flex;
+  width: 90rem;
+  min-width: 60rem;
+  max-width: 1040px;
   justify-content: center;
-}
-ul {
-  list-style: none;
-}
+  margin: 0 auto 0;
+  border:0;
+  padding: 0;
+  justify-content: center;
 
-.box__OptionsSearch ul li,
-.box__Buttoms ul li {
-  display: inline-block;
-  margin: auto 1.2rem;
-  color: black;
-}
-
-.box__OptionsSearch a {
-  text-decoration: none;
-  color: black;
 }
