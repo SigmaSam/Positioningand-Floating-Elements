@@ -255,6 +255,7 @@ footer hr {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content:space-between;
+  border-bottom: 1px #ddd solid;
 }
 
 .lists ul{
@@ -276,6 +277,12 @@ footer hr {
   line-height: 16px;
 }
 
+.rightL {
+  border-left: 1px #ddd solid;
+  border
+  margin: 0 auto;
+}
+
 .F_Link {
   color: rgb(51, 51, 51);
   font-size: 13px;
@@ -291,6 +298,7 @@ footer hr {
 }
 
 .feet {
+  padding-top: 1rem;
   padding-bottom: 2rem;
 }
 
@@ -309,7 +317,6 @@ footer hr {
   text-align: center;
   width: 80%;
 }
-
 
 
 #Alan {
