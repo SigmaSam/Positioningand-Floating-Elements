@@ -136,15 +136,28 @@ footer hr {
   line-height: 1.4;
 }
 
+.author {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
 .media_Bar {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+}
+
+.media_Bar p {
+justify-self: flex-start;
 }
 
 .media_Bar button {
-  align-items: flex-end;
+  justify-content: flex-end;
+  align-self: center;
+  border-radius: 2rem;
+  height: 3.2rem;
+  width: 3rem;
+  border: 1px solid #333;
 }
 .recomendation_Area {
   display: grid;
