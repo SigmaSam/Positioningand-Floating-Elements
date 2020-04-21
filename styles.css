@@ -234,6 +234,14 @@ footer hr {
   padding: 1rem 0;
 }
 
+.feet li {
+  list-style-type: none;
+}
+
+.most_popular li:hover {
+  opacity: 0.7;
+}
+
 .most_Popular a {
   text-decoration: none;
   color: black;
@@ -339,10 +347,6 @@ footer hr {
 .feet {
   padding-top: 1rem;
   padding-bottom: 2rem;
-}
-
-.feet li {
-  list-style-type: none;
 }
 
 .fLinks {
