@@ -131,6 +131,12 @@ footer hr {
   margin: 0 auto;
 }
 
+.main-section {
+  width: 100vw;
+  background-color: coral;
+  text-align: center;
+}
+
 .main_Article {
   margin: 20px auto;
   padding: 10px;
@@ -370,4 +376,49 @@ footer hr {
   border: 0;
   padding: 0;
   justify-content: center;
+}
+
+.clear-fix{
+  display: table;
+  clear: both;
+}
+
+.theory_Area {
+  background-color: blue;
+  display: block;
+  width: 90%;
+  height: 200vh;
+  margin: auto;
+  text-align: start;
+  font-size: 2rem;
+}
+
+
+.theory_cards {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+}
+
+.theory_section img {
+  width: 100%;
+}
+
+.theory_card {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+
+.s1 {
+  top: 170px;
+}
+
+.s2 {
+  top: 520px;
+}
+.theory__desc {
+  width: 23%;
+  flex-grow: 1;
+  margin: 0 1.2rem;
 }
