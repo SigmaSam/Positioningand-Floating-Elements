@@ -204,6 +204,8 @@ iframe {
   grid-template-rows: auto 1fr 1fr;
   grid-gap: 1.5rem;
   grid-row-gap: 1;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .related__articles a {
@@ -333,7 +335,7 @@ iframe {
 .lists a {
   color: rgb(0, 0, 0);
   display: inline-block;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   text-decoration: none;
   width: 150px;
   font-size: 14px;
@@ -478,4 +480,15 @@ iframe {
 #low_Border {
   margin-bottom: 1rem;
   border-bottom: 1px #ddd solid;
+}
+
+#l1,
+#l2,
+#l3,
+#l4,
+#l5,
+#l6,
+#l7 {
+  font-size: 0.5rem;
+  padding: 0.5rem 0;
 }
