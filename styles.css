@@ -52,6 +52,11 @@ footer hr {
   color: #ddd;
 }
 
+iframe {
+  width: 600px;
+  height: 320px;
+}
+
 .box__OptionsSearch {
   margin-right: 5rem;
   margin-top: 1rem;
@@ -151,6 +156,10 @@ footer hr {
   font-size: 1.4rem;
 }
 
+.author a {
+  color: black;
+}
+
 .top_section {
   display: flex;
 }
@@ -164,12 +173,12 @@ footer hr {
   justify-self: flex-start;
 }
 
-.media_Bar button {
+.media_Bar a {
+  background: white;
   justify-content: flex-end;
-  align-self: center;
+  align-items: center;
   border-radius: 2rem;
-  height: 3.2rem;
-  width: 3rem;
+  padding: 1rem 1rem;
   border: 1px solid #333;
 }
 
@@ -284,9 +293,6 @@ footer hr {
   flex-grow: 1;
 }
 
-/* .top_Area img {
-} */
-
 .top_Area a {
   text-decoration: none;
   flex-grow: 1;
@@ -307,14 +313,16 @@ footer hr {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content:space-between;
   border-bottom: 1px #ddd solid;
+  text-align: left;
 }
 
 .lists ul {
   list-style-type: none;
   text-decoration: none;
   font-size: 1.3rem;
+  padding: 0;
 }
 
 .lists a {
@@ -325,14 +333,8 @@ footer hr {
   text-transform: capitalize;
   width: 150px;
   font-size: 14px;
-  font-weight: bold;
   height: 23px;
   line-height: 16px;
-}
-
-.rightL {
-  border-left: 1px #ddd solid;
-  margin: 0 auto;
 }
 
 .F_Link {
@@ -366,17 +368,6 @@ footer hr {
   width: 80%;
 }
 
-#Alan {
-  display: flex;
-  width: 90rem;
-  min-width: 60rem;
-  max-width: 1040px;
-  margin: 0 auto 0;
-  border: 0;
-  padding: 0;
-  justify-content: center;
-}
-
 .clear-fix {
   display: table;
   clear: both;
@@ -384,8 +375,7 @@ footer hr {
 
 .theory_Area {
   display: block;
-  width: 90%;
-  height: 120vh;
+  width: 65%;
   margin: 2rem auto;
   text-align: start;
   font-size: 1.6rem;
@@ -423,4 +413,39 @@ footer hr {
 
 .publisher {
   margin-top: 1.5rem;
+}
+
+
+#Alan {
+  display: flex;
+  width: 90rem;
+  min-width: 60rem;
+  max-width: 1040px;
+  margin: 0 auto 0;
+  border: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+#fButtom {
+  padding: 0.5rem;
+}
+
+#bButtom {
+  padding: 0.3rem;
+}
+
+#rightL {
+  border-left: 1px #ddd solid;
+  padding-left: 1.5rem;
+}
+
+#rightL i  {
+  font-weight: 600
+  padding: 1rem;
+}
+
+#news,#book,#cross,#cook {
+  font-weight: bold;
+  text-align: left;
 }
