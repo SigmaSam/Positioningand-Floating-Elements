@@ -319,20 +319,9 @@ iframe {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content:space-between;
+  justify-content: space-between;
   border-bottom: 1px #ddd solid;
   text-align: left;
-}
-
-.lists a:hover  {
-text-decoration: underline;
-}
-
-.lists ul {
-  list-style-type: none;
-  text-decoration: none;
-  font-size: 1.3rem;
-  padding: 0;
 }
 
 .lists a {
@@ -340,12 +329,22 @@ text-decoration: underline;
   display: inline-block;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   text-decoration: none;
-  text-transform: capitalize;
   width: 150px;
   font-size: 14px;
   height: 23px;
   line-height: 16px;
   text-transform: capitalize;
+}
+
+.lists a:hover {
+  text-decoration: underline;
+}
+
+.lists ul {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 0;
 }
 
 .F_Link {
@@ -426,10 +425,10 @@ text-decoration: underline;
 .theory__desc p {
   font-size: 1.3rem;
 }
+
 .publisher {
   margin-top: 1.5rem;
 }
-
 
 #Alan {
   display: flex;
@@ -455,21 +454,22 @@ text-decoration: underline;
   padding-left: 1.5rem;
 }
 
-#rightL i  {
-  font-weight: 600
+#rightL i {
+  font-weight: 600;
   padding: 1rem;
 }
 
-#news,#book,#cross,#cook {
+#news,
+#book,
+#cross,
+#cook {
   font-weight: bold;
   text-align: left;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
-#low_Border{
+#low_Border {
   margin-bottom: 1rem;
   border-bottom: 1px #ddd solid;
-
-
 }
