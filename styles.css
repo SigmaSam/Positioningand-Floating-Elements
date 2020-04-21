@@ -116,6 +116,11 @@ iframe {
   padding-top: 7rem;
 }
 
+.face img {
+  width: 70rem;
+  height: 45rem;
+}
+
 .description {
   color: #333;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
@@ -240,6 +245,7 @@ iframe {
   margin-left: 1rem;
   color: rgb(102, 102, 102);
   line-height: 1.4375rem;
+  text-align: left;
 }
 
 .most_Popular li {
@@ -260,7 +266,7 @@ iframe {
   text-decoration: none;
   color: black;
   font-size: 2rem;
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-family: georgia, "times new roman", times, serif;
   line-height: 2.5rem;
 }
 
@@ -318,6 +324,10 @@ iframe {
   text-align: left;
 }
 
+.lists a:hover  {
+text-decoration: underline;
+}
+
 .lists ul {
   list-style-type: none;
   text-decoration: none;
@@ -335,6 +345,7 @@ iframe {
   font-size: 14px;
   height: 23px;
   line-height: 16px;
+  text-transform: capitalize;
 }
 
 .F_Link {
@@ -375,7 +386,8 @@ iframe {
 
 .theory_Area {
   display: block;
-  width: 65%;
+  width: 75%;
+  height: 65%;
   margin: 2rem auto;
   text-align: start;
   font-size: 1.6rem;
@@ -398,11 +410,11 @@ iframe {
 }
 
 .s1 {
-  top: 170px;
+  top: 150px;
 }
 
 .s2 {
-  top: 540px;
+  top: 480px;
 }
 
 .theory__desc {
@@ -411,6 +423,9 @@ iframe {
   margin: 0 1.2rem;
 }
 
+.theory__desc p {
+  font-size: 1.3rem;
+}
 .publisher {
   margin-top: 1.5rem;
 }
@@ -448,4 +463,13 @@ iframe {
 #news,#book,#cross,#cook {
   font-weight: bold;
   text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#low_Border{
+  margin-bottom: 1rem;
+  border-bottom: 1px #ddd solid;
+
+
 }
