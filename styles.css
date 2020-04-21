@@ -3,14 +3,14 @@ body {
   font-size: 62.5%;
   margin: 0;
   padding: 0;
-  font-family:nyt-franklin,helvetica,arial,sans-seri;
+  font-family: helvetica, arial, sans-serif;
 }
 
 nav {
   background-color: white;
   display: flex;
   flex-direction: row;
-  flex-wrap:none;
+  flex-wrap: none;
   font-size: 2rem;
   width: 100%;
   border-bottom: 0.1rem #ccc solid;
@@ -18,13 +18,12 @@ nav {
 }
 
 h1 {
-  text-align: center;
   position: relative;
   margin-left: auto;
   margin-right: auto;
   font-size: 4rem;
   color: #121212;
-  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-weight: 700;
   font-style: italic;
   text-align: justify;
@@ -51,13 +50,14 @@ footer hr {
   width: 90%;
   color: #ddd;
 }
-.box__OptionsSearch{
+
+.box__OptionsSearch {
   margin-right: 5rem;
   margin-top: 1rem;
 }
+
 .box__OptionsSearch a {
   color: black;
-  text-align: center;
   flex-grow: 1;
   justify-content: flex-start;
   text-align: left;
@@ -68,7 +68,7 @@ footer hr {
   color: black;
   text-decoration: none;
   font-size: 1.4rem;
-  font-family: nyt-franklin;
+  font-family: Helvetica, sans-serif;
   letter-spacing: 0.7px;
   line-height: 2rem;
   font-weight: 700;
@@ -92,7 +92,7 @@ footer hr {
 
 .box__Buttoms button {
   border-radius: 3px;
-  font-family: nyt-franklin;
+  font-family: Helvetica, sans-serif;
   cursor: pointer;
   padding: 11px 12px 8px;
   border: 1px solid rgb(50, 104, 145);
@@ -107,48 +107,55 @@ footer hr {
 }
 
 .face {
-    padding-top: 7rem;
+  padding-top: 7rem;
 }
+
 .description {
   color: #333;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 1.6rem;
   line-height: 1.5rem;
   max-width: 70rem;
   text-align: left;
   margin: 1rem auto 0 22.5rem;
 }
+
 .quote {
   color: #888;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 1.6rem;
   line-height: 1.5rem;
   max-width: 70rem;
   text-align: left;
-  margin: 0 auto;;
+  margin: 0 auto;
 }
 
 .main_Article {
-  margin: 0 auto;
-  max-width: 60rem;
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 70rem;
   font-size: 1.9rem;
   text-align: left;
   line-height: 1.4;
 }
 
 .author {
+  display: block;
   font-weight: bold;
   font-size: 1.4rem;
 }
 
+.top_section {
+  display: flex;
+}
+
 .media_Bar {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .media_Bar p {
-justify-self: flex-start;
+  justify-self: flex-start;
 }
 
 .media_Bar button {
@@ -159,6 +166,7 @@ justify-self: flex-start;
   width: 3rem;
   border: 1px solid #333;
 }
+
 .recomendation_Area {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -174,7 +182,7 @@ justify-self: flex-start;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto 1fr 1fr;
   grid-gap: 1.5rem;
-  grid-row-gap: ;
+  grid-row-gap: 1;
 }
 
 .related__articles a {
@@ -191,6 +199,7 @@ justify-self: flex-start;
   grid-row: 2;
   margin-bottom: 0.1rem;
 }
+
 .box4 .box5 .box6 {
   grid-column: 1;
   grid-row: 3;
@@ -217,7 +226,6 @@ justify-self: flex-start;
   color: rgb(102, 102, 102);
   line-height: 1.4375rem;
 }
-
 
 .most_Popular li {
   list-style-type: none;
@@ -258,42 +266,38 @@ justify-self: flex-start;
   margin: 1rem auto 1rem;
   width: 90%;
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   flex-grow: 1;
 }
 
-.top_Area img {
-
-}
+/* .top_Area img {
+} */
 
 .top_Area a {
-  font-size: 1rem;
   text-decoration: none;
-  color: #333;
   flex-grow: 1;
   text-align: right;
   align-self: flex-end;
   color: rgb(86, 123, 149);
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
   line-height: 11px;
-  text-decoration: none;
-  }
+}
 
 .lists {
-  margin:0 auto;
-  padding:0;
+  margin: 0 auto;
+  padding: 0;
   width: 90%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content:space-between;
+  justify-content: space-between;
   border-bottom: 1px #ddd solid;
 }
 
-.lists ul{
+.lists ul {
   list-style-type: none;
   text-decoration: none;
   font-size: 1.3rem;
@@ -307,14 +311,13 @@ justify-self: flex-start;
   text-transform: capitalize;
   width: 150px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: bold;
   height: 23px;
   line-height: 16px;
 }
 
 .rightL {
   border-left: 1px #ddd solid;
-  border
   margin: 0 auto;
 }
 
@@ -322,10 +325,10 @@ justify-self: flex-start;
   color: rgb(51, 51, 51);
   font-size: 13px;
   font-weight: 700;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   height: 25px;
   line-height: 15px;
-  margin: 0px;
+  margin: 0;
   padding-bottom: 1rem;
   text-transform: uppercase;
   width: 150px;
@@ -353,15 +356,13 @@ justify-self: flex-start;
   width: 80%;
 }
 
-
 #Alan {
   display: flex;
   width: 90rem;
   min-width: 60rem;
   max-width: 1040px;
-  justify-content: center;
   margin: 0 auto 0;
-  border:0;
+  border: 0;
   padding: 0;
   justify-content: center;
 }
