@@ -228,8 +228,8 @@ iframe {
 }
 
 .recomendation_Area img {
-  width:272px;
-  height:185px;
+  width: 272px;
+  height: 185px;
 }
 
 .source {
@@ -478,11 +478,4 @@ iframe {
 #low_Border {
   margin-bottom: 1rem;
   border-bottom: 1px #ddd solid;
-<<<<<<< HEAD
-}
-
-#mostP {
-  padding-left: 3.9rem;
-=======
->>>>>>> 59bb461c55e95a5be17b3bac24666f4d40822441
 }
