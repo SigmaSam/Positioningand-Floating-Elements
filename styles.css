@@ -10,7 +10,6 @@ nav {
   background-color: white;
   display: flex;
   flex-direction: row;
-  flex-wrap: none;
   font-size: 2rem;
   width: 100%;
   border-bottom: 0.1rem #ccc solid;
@@ -203,7 +202,7 @@ iframe {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto 1fr 1fr;
   grid-gap: 1.5rem;
-  grid-row-gap: 1;
+  grid-row-gap: 1rem;
   padding-bottom: 2rem;
   margin-bottom: 1rem;
 }
