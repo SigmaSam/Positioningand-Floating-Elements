@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: helvetica, arial, sans-serif;
+  overflow-x: hidden;
 }
 
 nav {
@@ -114,10 +115,16 @@ iframe {
 
 .face {
   padding-top: 7rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+  max-width: 47%
+
 }
 
 .face img {
-  width: 70rem;
+  width: 100%;
   height: 45rem;
 }
 
@@ -128,7 +135,18 @@ iframe {
   line-height: 1.5rem;
   max-width: 70rem;
   text-align: left;
-  margin: 1rem auto 0 22.5rem;
+  position: relative;
+}
+
+
+.face2 {
+  padding-top: 7rem;
+  margin: 20px auto;
+}
+
+.face2 img {
+  width: 70rem;
+  height: 45rem;
 }
 
 .quote {
@@ -469,14 +487,15 @@ iframe {
 .sBox {
 text-align: right;
 display: grid;
-grid-template-columns: 1fr ;
+grid-template-columns: 1fr 1fr;
 grid-row: auto;
 grid-gap: 1rem;
-width: 30rem;
+max-width: 20rem;
 margin-top: -250px;
-margin-left: 72rem;
+margin-left: 115%;
 margin-bottom: -180px;
-line-height: 3rem;
+line-height: 2rem;
+font-size: 1.4rem;
 }
 
 .sBox h3 {
@@ -494,6 +513,8 @@ line-height: 3rem;
 .sBox p {
   grid-column: 2;
   text-align: left;
+  margin-top: auto;
+
 }
 
 
