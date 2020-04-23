@@ -53,7 +53,7 @@ Microverse Project #3 04/14/2020.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/SigmaSam/PositioningandFloatingElementsGabriel-Samuel/f8e33b3bdf3a042723708754edd617403f2bdfae/index.html)
+[Live Demo Link](https://rawcdn.githack.com/SigmaSam/PositioningandFloatingElementsGabriel-Samuel/d2c2355b2c16533e02f538d9bdb00cd33388ff34/index.html)
 
 
 ## Getting Started
