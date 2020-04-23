@@ -118,14 +118,13 @@ iframe {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  width: 47%;
-  max-width: 47%
-
+  width: 90rem;
 }
 
 .face img {
-  width: 100%;
+  width: 70rem;
   height: 45rem;
+
 }
 
 .description {
@@ -134,8 +133,6 @@ iframe {
   font-size: 1.6rem;
   line-height: 1.5rem;
   max-width: 70rem;
-  text-align: left;
-  position: relative;
 }
 
 
@@ -206,16 +203,18 @@ iframe {
 }
 
 .recomendation_Area {
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-column-gap: 0.1rem;
   max-height: 50%;
+
 }
 
 .related__articles {
   font-size: 2rem;
   display: grid;
-  width: 60%;
+  width: 90%;
   margin-left: 8rem;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto 1fr 1fr;
@@ -419,8 +418,12 @@ iframe {
   width: 75%;
   height: 65%;
   margin: 2rem auto;
+  padding-bottom: 15rem;
   text-align: start;
   font-size: 1.6rem;
+  max-width:1025px;
+  max-height: 625px;
+
 }
 
 .theory_Area hr {
@@ -436,6 +439,7 @@ iframe {
 
 .theory_Area img {
   width: 100%;
+
 }
 
 .theory_card {
@@ -516,9 +520,6 @@ font-size: 1.4rem;
   margin-top: auto;
 
 }
-
-
-
 
 
 #Alan {
